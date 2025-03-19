@@ -86,6 +86,6 @@ def generate_text(prompt, max_length=150, temperature=0.9, top_k=50, top_p=0.9):
     return generated_text
 
 # Example usage
-prompt = "On Germany her"
+prompt = ""
 generated_text = generate_text(prompt, temperature=0.5, top_k=30, top_p=0.85)
 print(generated_text)
